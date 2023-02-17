@@ -12,7 +12,9 @@ int main(void)
 
 	while (zero <= nine)
 	{
-		for (int i = 48; i <= nine; i++)
+		int i;
+
+		for (i = 48; i <= nine; i++)
 		{
 			putchar(zero);
 			putchar(i);
