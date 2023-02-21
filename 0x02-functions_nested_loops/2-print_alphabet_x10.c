@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 	{
 		char_a = 97;
 		char_z = 122;
-		while(char_a <= char_z)
+		while (char_a <= char_z)
 		{
 			_putchar(char_a);
 			char_a++;
