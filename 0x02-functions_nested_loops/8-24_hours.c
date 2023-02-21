@@ -14,7 +14,7 @@ void jack_bauer(void)
 	int colon = 58;
 	int newline = 10;
 
-	while ( h_count < hours)
+	while (h_count < hours)
 	{
 		m_count = 0;
 		while (m_count < minutes)
