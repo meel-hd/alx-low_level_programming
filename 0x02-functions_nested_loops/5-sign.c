@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <limits.h>
 /**
  * print_sign - print the sign of a number
  *
@@ -10,7 +10,7 @@
  */
 int print_sign(int n)
 {
-	if (n > 0)
+	if (n > 0 || n > LONG_MAX)
 	{
 		_putchar(43);
 		return (0);
