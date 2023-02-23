@@ -21,4 +21,8 @@ void print_square(int size)
 		_putchar(10);
 		i++;
 	}
+	if (size <= 0)
+	{
+		_putchar(10);
+	}
 }
