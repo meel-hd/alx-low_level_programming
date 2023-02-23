@@ -8,7 +8,7 @@
  */
 int _isupper(int c)
 {
-	int upper_z = 90
+	int upper_z = 90;
 
 	if (c <= upper_z)
 	{
