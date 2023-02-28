@@ -30,12 +30,12 @@ void puts_half(char *str)
 			_putchar(str[second_half]);
 			second_half++;
 		}
-	} else 
+	} else
 	{
 		n = (len - 1) / 2;
 
 		i = len - n;
-		while ( i < len)
+		while (i < len)
 		{
 			_putchar(str[i]);
 			i++;
