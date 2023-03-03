@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * leet - deez challenge 
- * @s: string 
+ * leet - deez challenge
+ * @s: string
  * Return: pointer to string
  */
 char *leet(char *s)
