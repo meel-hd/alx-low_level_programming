@@ -3,6 +3,25 @@
 #include <ctype.h>
 
 /**
+ * is_all_digits - check if string is a digit
+ * @str: string to check
+ * Return: 0 if not, 1 if string is digit
+ */
+int is_all_digits(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		if (!isdigit(str[i]))
+		{
+			return (0);
+		}
+		i++;
+	}
+	return (1);
+}
+/**
  * main - Entry
  * @argc: args count
  * @argv: args array
@@ -15,7 +34,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		if (isdigit(argv[i][0]) == 0)
+		if (!is_all_digits(argv[i]))
 		{
 			printf("Error\n");
 			return (1);
